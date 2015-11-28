@@ -1,5 +1,5 @@
 // defining the app module of the project
-angular.module('moviesDBApp', ['ngRoute','movieDBControllers','movieDBServices'])
+angular.module('moviesDBApp', ['ngRoute','movieDBControllers','movieDBServices','movieDBDirectives'])
 .constant("myMovieConfig", {
 	"moviesEndpoint": "https://api.themoviedb.org/3/movie", "apiKey": "35e16679c616a21b9ddebb66272c5902"
 })

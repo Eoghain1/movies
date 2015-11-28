@@ -12,7 +12,7 @@ div.repeat:nth-child(6n+1){
 }
 
 /* Portrait tablets and small desktops colsm*/
-@media (min-width:768px) and (max-width:991px) {
+@media screen (min-width: 768px) and (max-width: 991px) {
 div.repeat:nthchild(3n+1){ clear: both}
 }
 
@@ -21,7 +21,6 @@ div.repeat:nthchild(3n+1){ clear: both}
 	div.repeat:nthchild(2n+1){ clear: both}
 }
 /* Portrait phones and smaller colxs*/
-@media (maxwidth:480px) {
-	div.repeat:nthchild(2n+1) { 
-	clear: both}
+@media (max-width:480px) {
+	div.repeat:nthchild(2n+1) { clear: both}
 }
