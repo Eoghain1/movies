@@ -1,4 +1,4 @@
-# mdb-initial 
+# MoviesDB
 
 This project is a initial version of a student project used for
 learning the AngularJS frame work.
